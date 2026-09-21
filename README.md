@@ -29,6 +29,8 @@ Developed end-to-end, this project encompasses full-stack architecture, UI/UX de
 - **Dynamic Localization:** Full support for Turkish, English, and Polish.
 - **PWA Integration:** Add to Home Screen (A2HS) support with custom manifests and service workers.
 - **Timezone Sync:** Localized date handling ensuring logs are synced to the user's specific timezone.
+- **Dark Mode:** Full dark theme support across the entire app.
+- **Notifications:** Configurable reminder notifications to keep users on track.
 
 ---
 
@@ -40,11 +42,15 @@ Developed end-to-end, this project encompasses full-stack architecture, UI/UX de
 
 | Calendar View | Profile & Settings |
 |:---:|:---:|
-| ![Calendar View](./screenshots/calendar-view.png) | ![Profile Settings](./screenshots/profile-settings.png) |
+| ![Calendar View](./screenshots/cal.png) | ![Profile Settings](./screenshots/profile-settings.png) |
 
-| Language Selector |
-|:---:|
-| ![Language Selector](./screenshots/language-selector.png) |
+| Dark Mode | Notifications |
+|:---:|:---:|
+| ![Dark Mode](./screenshots/dark-mode.png) | ![Notification Settings](./screenshots/notification-settings.png) |
+
+| Language Selector | App Settings |
+|:---:|:---:|
+| ![Language Selector](./screenshots/language-selector.png) | ![Settings](./screenshots/settings.png) |
 
 ---
 
@@ -81,3 +87,21 @@ npm install
 # JWT_SECRET=your_secret_key
 npm start
 ```
+
+### 3. Frontend Setup (Client)
+
+Open a new terminal, go to the client directory, and install dependencies:
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+The app should now be running locally. Open the URL shown in your terminal (typically `http://localhost:5173`) in your browser.
+
+---
+
+## 📄 License
+
+This project was developed as part of the Spring 2026 term at VIZJA University.
